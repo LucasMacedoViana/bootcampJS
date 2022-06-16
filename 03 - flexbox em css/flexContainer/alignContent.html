@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;
+            margin: 0 ;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background-color: orangered;
+            padding: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            margin: 5px;
+            
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .start{
+            align-content: flex-start;
+        }
+        .end{
+            align-content: flex-end;
+        }
+        .around{
+            align-content: space-around;
+        }
+        .between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <h1>align-Content</h1>
+    <h2>É a propriedade responsável por tratar o alinhamento das linhas
+        do container em relação ao eixo vertical do container.</h2>
+    <h2>stretch: é o padrão e os flex itens crescem igualmente</h2>
+    <h3>(align-content: stretch;)</h3>
+    <div class="container stretch">
+        <div class="item">lucas macedo viana</div>
+        <div class="item">lucas macedo</div>
+        <div class="item">lucas</div>
+        <div class="item">meu nome é lucas macedo viana  e estou fazendo o curso da dio par aprender mais sobre  programação</div>
+        <div class="item">macedo viana</div>
+        <div class="item">viana</div>
+        <div class="item">meu nome é</div>
+    </div>
+
+    <h2>center: alinhamento dos itens ao centro</h2>
+    <h3>(align-content: center;)</h3>
+    <div class="container center">
+        <div class="item">lucas macedo viana</div>
+        <div class="item">lucas macedo</div>
+        <div class="item">lucas</div>
+        <div class="item">meu nome é lucas macedo viana  e estou fazendo o curso da dio par aprender mais sobre  programação</div>
+        <div class="item">macedo viana</div>
+        <div class="item">viana</div>
+        <div class="item">meu nome é</div>
+    </div>
+
+    <h2>flex-start: alinhamento dos itens no início</h2>
+    <h3>(align-content: flex-start;)</h3>
+    <div class="container start">
+        <div class="item">lucas macedo viana</div>
+        <div class="item">lucas macedo</div>
+        <div class="item">lucas</div>
+        <div class="item">meu nome é lucas macedo viana  e estou fazendo o curso da dio par aprender mais sobre  programação</div>
+        <div class="item">macedo viana</div>
+        <div class="item">viana</div>
+        <div class="item">meu nome é</div>
+    </div>
+    
+    <h2>flex-end: alinhamento dos itens no final</h2>
+    <h3>(align-content: flex-end;)</h3>
+    <div class="container end">
+        <div class="item">lucas macedo viana</div>
+        <div class="item">lucas macedo</div>
+        <div class="item">lucas</div>
+        <div class="item">meu nome é lucas macedo viana  e estou fazendo o curso da dio par aprender mais sobre  programação</div>
+        <div class="item">macedo viana</div>
+        <div class="item">viana</div>
+        <div class="item">meu nome é</div>
+    </div>
+
+    <h2>space-around: os espaçamentos do meio são duas vezes
+        maiores que o inicial e final</h2>
+    <h3>(align-content: space-around;)</h3>
+    <div class="container around">
+        <div class="item">lucas macedo viana</div>
+        <div class="item">lucas macedo</div>
+        <div class="item">lucas</div>
+        <div class="item">meu nome é lucas macedo viana  e estou fazendo o curso da dio par aprender mais sobre  programação</div>
+        <div class="item">macedo viana</div>
+        <div class="item">viana</div>
+        <div class="item">meu nome é</div>
+    </div>
+
+    <h2>space-between: cria um espaçamento igual entre os elementos</h2>
+    <h3>(align-content: space-between;)</h3>
+    <div class="container between">
+        <div class="item">lucas macedo viana</div>
+        <div class="item">lucas macedo</div>
+        <div class="item">lucas</div>
+        <div class="item">meu nome é lucas macedo viana  e estou fazendo o curso da dio par aprender mais sobre  programação</div>
+        <div class="item">macedo viana</div>
+        <div class="item">viana</div>
+        <div class="item">meu nome é</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+objetivo do curso
+apresentar os fundamentos e aplicações da propriedade flexbox na criação de layouts responsivos, sem a necessidade a definição de valores fixos
+
+construir paginas que vai ser responsiva as mais diversas situações.
+
+ao final, vamos construir uma landpage
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+o flexbox veio para como um modelo de layout unidimensional, seu metodo visa oferecer um recurso de alinhamento 
+
+#flex container
+é a tag que envolve os itens, será nela que iremos a plicar a propriedade "display: flex". transformar todos os seus itens filhos em flex itens.
+
+## propriedades relacionadas
+-display: inicializador do container
+-flex-direction: faz o direcionamento dos itens, seja em linha, coluna
+-flex-wrap: quebra de linha ou não
+-flex-flow: abreviação dos dois a cima
+-justify-content: vai alinhar os itens do container de acordo com sua direção
+-align-items: alinhar os itens de acordo com o eixo
+-align-content: alinhar as linhas do container
+
+#flex item
+são elementos filhos diretos do flex container. e também podemn se tornar flex container
+
+## propriedades relacionadas
+-flex- grow: determinar o fator de crescimento
+-flex-bais: definir o tamanho inicial do item 
+-flex-shrink: define a capacidade de redução
+-flex:abreviação dos 3 a cima
+-order: ordem de distrubuição e listagem dos itens
+-align-self: alinhamento de um item especifico do container
+
+-------------------------------------------------------------------------------------------------------------------------------
+fundamentos flex container
+
+# display:flex
+vai deixar os itens alinhados(um ao lado do outro), tomando somente o seu tamanho, porem, chega um determinando momento que ele vai sair do container
+
+# flex-direction
+é a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex itens são colocados no flex container
+## EIXOS
+-row: é o padrão, a direção do texto, esquerda para direita(1234)
+-row-reverse: sentido oposto da direção(4321)
+-column: oredenação de cima para baixo, em coluna unica
+-column-reverse: oredenação reversa, de cima para baixo.
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+

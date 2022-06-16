@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - justify-content</title>
+    <style>
+        .container{
+            max-width: 400px;
+            border: 1px solid black;
+            margin: 0;
+            display: flex;
+            margin-bottom: 10px;
+
+        }
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            text-align: center;
+            color: white
+        }
+        .flex-star{
+            justify-content: flex-start;
+            
+        }
+        .flex-end{
+            justify-content: flex-end;
+        }
+        .center{
+            justify-content: center;
+        }
+        .space-betwen{
+            justify-content: space-between;
+        }
+        .space-around{
+            justify-content: space-around;
+        }
+        .column{
+            flex-direction: column;
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Justify Content</h1>
+    <h2>Essa propriedade vai se encarregar de alinhar os itens dentro do
+        container de acordo com a direção pretendida e tratar da
+        distribuição de espaçamento entre eles.
+        
+       <br> OBS: caso seus itens esteja ocupando 100% de todo o container,
+        ela não se aplica</h2>
+    <h1>row</h1>
+    <h1>flex-start: início do container.</h1>
+    <h2> (justify-content: flex-start)</h2>
+    <section class="container flex-star">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <h1>flex-end: final do container.</h1>
+    <h2>(justify-content: flex-end)</h2>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <h1>center: ao centro do container.</h1>
+    <h2>(justify-content: center)</h2>
+    <section class="container center">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <h1>space-between: cria um espaçamento igual entre os
+        elementos.</h1>
+    <h2>(justify-content: space-between)</h2>
+    <section class="container space-betwen">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <h1>space-around: os espaçamentos do meio são duas vezes
+        maiores que o inicial e final.</h1>
+    <h2>(justify-content: space-around)</h2>
+    <section class="container space-around">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <h1>collumn</h1>
+    
+    <h1>flex-Start</h1>
+    <section class="container flex-star column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <h1>flex-end</h1>
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <h1>center</h1>
+    <section class="container center column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <h1>space-betwen</h1>
+    <section class="container space-betwen column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <h1>space-around</h1>
+    <section class="container space-around column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+</body>
+</html>

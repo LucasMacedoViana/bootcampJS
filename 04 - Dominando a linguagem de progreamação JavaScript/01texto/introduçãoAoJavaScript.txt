@@ -1,0 +1,27 @@
+comentar a linha:
+//        (unica linha) 
+/*     */ (varias linhas)
+Ctrl +  / (atalho) //
+
+var (varivael): (valor pode mudar)
+var preco = 2;
+const (contante): (valor não mudar)
+const PRECO = 2;
+
+function (funções):
+funciton nome da função (parametros ou atributos){
+    o que a função faz
+}
+
+funciton soma(a,b){
+    console.log(a+b);
+    return a + b;
+}
+soma(2,2);
+
+console(F12):
+
+
+
+
+
