@@ -1,0 +1,5 @@
+var e let: declaração de valores dinamicos dentro do javaScript
+var: scopo global
+let: scopo local
+
+
