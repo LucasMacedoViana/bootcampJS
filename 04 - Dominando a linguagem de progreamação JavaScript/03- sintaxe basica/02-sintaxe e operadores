@@ -1,0 +1,9 @@
+operadores:
+sinais que utilizamos no javascript para manipular um certo valor ou para validar uma certa condiçõa, sao representados pór sinais.
+
+- aritimetica (=) (-) (*) (**) (/) (%) (++) (--)
+- atribuição (=) (+=) (-=) (/=) (*=) (%=)
+- comparação (==) (===) (!=) (!==) (>) (<) (>=) (<=)
+- logica  (&&)=="e" logico (||)== "ou" logico (!)== "não logico
+- condicional ((condição) ? explressão 1 : expressão2) ==  if condição: expressão 1; else: expressão2
+
